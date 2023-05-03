@@ -22,9 +22,20 @@ The implementations are carried out in Julia and Python. We require the followin
 
 ### [Julia](https://julialang.org/) libraries 
 Julia is a high-level, general-purpose dynamic programming language.
-We compute the single-parameter rank functions using the following packages:
-
- 
+We compute single-parameter persistent homology using the [Ripserer](https://mtsch.github.io/Ripserer.jl/dev/) package and to reproduce the outputs in the [] notebook we also require the following packages:
+- [CSV](https://csv.juliadata.org/stable/)
+- [DataFrames](https://dataframes.juliadata.org/stable/)
+- [Plots](https://docs.juliaplots.org/latest/tutorial/)
+- [MultivariateStats](https://github.com/JuliaStats/MultivariateStats.jl)
+- [Statistics](https://docs.julialang.org/en/v1/stdlib/Statistics/)
+- [GLM](https://juliastats.org/GLM.jl/stable/)
+- [StatBase](https://juliastats.org/StatsBase.jl/stable/)
+- [Lathe](https://github.com/ChifiSource/Lathe.jl)
+- [MLBase](https://github.com/JuliaStats/MLBase.jl)
+- [ClassImbalance](https://juliapackages.com/p/classimbalance)
+- [ROCAnalysis](https://github.com/davidavdav/ROCAnalysis.jl)
+- [LIBSVM](https://github.com/JuliaML/LIBSVM.jl)
+- [Random](https://docs.julialang.org/en/v1/stdlib/Random/)
 ### Python packages
 
 We require the fo
