@@ -21,7 +21,7 @@ We apply this to the dataset
 
 <!-- Package installation -->
 ## Package installation
-The implementations are carried out in [Julia](https://julialang.org/) and [Python](https://www.python.org/). We require the following packages for each
+Single parameter persistent homology rank functions can be computed both in [Julia](https://julialang.org/) and [Python](https://www.python.org/) and we compute two parameter persistent homology rank functions using [RIVET](https://rivet.readthedocs.io/en/latest/) in combination with python scripts. To run the ipython notebooks within this repository, we require the following libraries.
 
 ### Julia libraries 
 Julia is a high-level, general-purpose dynamic programming language.
