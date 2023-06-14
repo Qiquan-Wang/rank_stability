@@ -8,14 +8,12 @@ Rank Function Machine Learning" (cite).
 
 Brief intro of persistent homology rank functions ... 
 
-In this repository we provide code for computing 
+In this repository we provide access to data and code needed to reproduce the computation in 
 
 <!-- Overview -->
 ## Overview
 
-For computing persistent homology rank function with single parameter filtration please refer to the folder 
-The computation is carried out in Julia \cite{julia}, using Eirene \cite{eirene}. 
-We apply this to the dataset 
+
 
 
 
@@ -47,14 +45,12 @@ We require the following python packages
 [RIVET](https://rivet.readthedocs.io/en/latest/) is a tool for computing two-parameter persistent homology
 
 
-<!-- Structure of the repository -->
-## Structure of the repository
+<!-- Usage -->
+## Usage
 
-The repository is organised as follows:
-- Single parameter
-    -a
-    -b
-- Bi-parameter
+The structure of the repository is organised as follows:
+- 
+
 
 To generate point clouds on tumour surface from CT scans see [this notebook](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb) from https://github.com/robinvndaele/TDA_LungLesion.
 
