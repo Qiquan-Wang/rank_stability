@@ -8,7 +8,7 @@ Rank Function Machine Learning" (cite).
 
 Brief intro of persistent homology rank functions ... 
 
-In this repository we provide access to data and code needed to reproduce the computation in 
+In this repository we provide access to data and code needed to reproduce the results and figures from the paper.
 
 <!-- Overview -->
 ## Overview
@@ -39,10 +39,19 @@ We compute single-parameter persistent homology using the [Ripserer](https://mts
 - [Random](https://docs.julialang.org/en/v1/stdlib/Random/)
 
 ### Python libraries:
-We require the following python packages
+Python is a high-level, versatile, and easy-to-read programming language widely used for various applications, including data analysis, machine learning.
+We require from python the following packages:
+- [numpy](https://numpy.org)
+- [os](https://docs.python.org/3/library/os.html)
+- [matplotlib](https://matplotlib.org/)
+- [gudhi](https://gudhi.inria.fr/python/latest/)
+- [math](https://docs.python.org/3/library/math.html)
+- [random](https://docs.python.org/3/library/random.html)
+- [ripser](https://ripser.scikit-tda.org/en/latest/)
+- [persim](https://persim.scikit-tda.org/en/latest/)
 
 ### RIVET 
-[RIVET](https://rivet.readthedocs.io/en/latest/) is a tool for computing two-parameter persistent homology
+[RIVET](https://rivet.readthedocs.io/en/latest/) is a tool for computing two-parameter persistent homology and we provide code to compute the rank invariants from the RIVET outputs in the folder Compute_Biparameter_Rank_Invariant (these codes are built upon the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
 
 
 <!-- Usage -->
