@@ -12,13 +12,22 @@ We explore the persistent homology rank functions as equivalent functional repre
 
 <!-- Structure of the repository -->
 ## Structure of the repository
-This repository is organised as follows:
-- `HRV_Application:` 
-
-
-## give credit to sources
-To generate point clouds on tumour surface from CT scans see [this notebook](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb) from https://github.com/robinvndaele/TDA_LungLesion.
-
+This repository is split into the following:
+- `HRV_Application`: contains code and data related to the application of classifying HRV between healthy individuals and post-stroke patients in Section 3.1 of the paper.
+    -  `Classification on HRV data.ipynb`: notebook to reproduce all figures and results from Section 3.1.
+    -  `interpolatedRR_CON.csv` and `normalRRs_CON.csv` are the data required.
+- `Compute_Biparameter_Rank_Invariant`: containing Python scripts for computing biparameter rank invariants (which are adapted from the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
+- `Simulation_Study`: contains code for simulation study found in Section 3.2
+    - `Simulation.ipynb`: notebook to reproduce all figures and results from Section 3.2.
+    - `simulation_tools.py` and `compute_rank_function_from_barcode.py` contain supplementray code for the notebook
+- `Lung_CT_Application`: contains code and data related to the application of classifying state of lung tumour from MRIs found in Section 3.3 of the paper.
+    - `Application in Lung Tumour Classification.ipynb`, `dcm to point clouds to rank functions.ipynb` and `For visualization.ipynb` are notebooks to reproduce all figures and results from Section 3.3. More explanations can be found within the notebooks.
+    - `Diagnosis.csv`: contains lung tumour diagnosis
+    - `Meta.csv`: contains lung tumour MRI information including whether images contain contrasting material
+    - `masks`: contains tumour segmented masks.
+    - `point_couds`: contains point clouds from tumour surface.
+    - `small_point_clouds`: contains subsampled point clouds.
+    - `Functions`: contains supplementary scripts to generate point clouds from tumour surface from CT scans sourced from [(https://github.com/robinvndaele/TDA_LungLesion](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb).
 
 
 
