@@ -16,7 +16,7 @@ This repository is split into the following:
 - `HRV_Application`: contains code and data related to the application of classifying HRV between healthy individuals and post-stroke patients in Section 3.1 of the paper.
     -  `Classification on HRV data.ipynb`: notebook to reproduce all figures and results from Section 3.1.
     -  `interpolatedRR_CON.csv` and `normalRRs_CON.csv` are the data required.
-- `Compute_Biparameter_Rank_Invariant`: containing Python scripts for computing biparameter rank invariants (which are adapted from the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
+- `Compute_Biparameter_Rank_Invariant`: contains Python scripts for computing biparameter rank invariants (which are adapted from the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
 - `Simulation_Study`: contains code for simulation study found in Section 3.2
     - `Simulation.ipynb`: notebook to reproduce all figures and results from Section 3.2.
     - `simulation_tools.py` and `compute_rank_function_from_barcode.py` contain supplementary code for the notebook
@@ -27,7 +27,7 @@ This repository is split into the following:
     - `masks`: contains tumour segmented masks.
     - `point_couds`: contains point clouds from the tumour surface.
     - `small_point_clouds`: contains subsampled point clouds.
-    - `Functions`: contains supplementary scripts to generate point clouds from tumour surface from CT scans sourced from [(https://github.com/robinvndaele/TDA_LungLesion](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb).
+    - `Functions`: contains supplementary scripts to generate point clouds from tumour surface from CT scans sourced from [(https://github.com/robinvndaele/TDA_LungLesion)](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb).
 
 <!-- Package installation -->
 ## Package installation
