@@ -3,16 +3,17 @@
 <!-- Outline -->
 ## Outline
 
-This repository contains data and code for reproducing the applications in the paper ``Computational Stability for Persistence
-Rank Function Machine Learning" (cite).
+This repository contains data and code for computing single-parameter persistent homology rank functions and bi-parameter persistent homology rank invariants, also reproducing the figures and application results in the paper [``Computational Stability for Persistence
+Rank Function Machine Learning"](cite).
 
-Brief intro of persistent homology rank functions ... 
-
-In this repository we provide access to data and code needed to reproduce the results and figures from the paper.
+Persistent homology is one of the most important tools in topological data analysis, studying how homological features of data persist over scale. Commonly, persistent homology is represented using the persistence diagram or the persistence barcode. However, these representations do not lend themselves naturally to statistical and machine learning algorithms. We explore the persistent homology rank functions as equivalent functional representations that are naturally suited to methods in functional data analysis and can be extended to the multiparameter setting.
 
 <!-- Overview -->
 ## Overview
 
+
+## give credit to sources
+To generate point clouds on tumour surface from CT scans see [this notebook](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb) from https://github.com/robinvndaele/TDA_LungLesion.
 
 
 
@@ -54,14 +55,7 @@ We require from python the following packages:
 [RIVET](https://rivet.readthedocs.io/en/latest/) is a tool for computing two-parameter persistent homology and we provide code to compute the rank invariants from the RIVET outputs in the folder Compute_Biparameter_Rank_Invariant (these codes are built upon the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
 
 
-<!-- Usage -->
-## Usage
 
-The structure of the repository is organised as follows:
-- 
-
-
-To generate point clouds on tumour surface from CT scans see [this notebook](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb) from https://github.com/robinvndaele/TDA_LungLesion.
 
 
 
