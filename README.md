@@ -8,7 +8,7 @@ Rank Function Machine Learning"](cite).
 
 Persistent homology is one of the most important tools in topological data analysis, studying how homological features of data persist over scale. Commonly, persistent homology is represented using the persistence diagram or the persistence barcode. However, these representations do not lend themselves naturally to statistical and machine learning algorithms. 
 
-We explore the persistent homology rank functions as equivalent functional representations that are naturally suited to methods in functional data analysis, and can also be extended to the multiparameter setting.
+We explore the persistent homology rank functions as equivalent functional representations that are naturally suited to methods in functional data analysis, which can also be extended to the multiparameter setting.
 
 <!-- Structure of the repository -->
 ## Structure of the repository
@@ -19,17 +19,15 @@ This repository is split into the following:
 - `Compute_Biparameter_Rank_Invariant`: containing Python scripts for computing biparameter rank invariants (which are adapted from the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
 - `Simulation_Study`: contains code for simulation study found in Section 3.2
     - `Simulation.ipynb`: notebook to reproduce all figures and results from Section 3.2.
-    - `simulation_tools.py` and `compute_rank_function_from_barcode.py` contain supplementray code for the notebook
-- `Lung_CT_Application`: contains code and data related to the application of classifying state of lung tumour from MRIs found in Section 3.3 of the paper.
+    - `simulation_tools.py` and `compute_rank_function_from_barcode.py` contain supplementary code for the notebook
+- `Lung_CT_Application`: contains code and data related to the application of classifying states of lung tumours from MRIs found in Section 3.3 of the paper.
     - `Application in Lung Tumour Classification.ipynb`, `dcm to point clouds to rank functions.ipynb` and `For visualization.ipynb` are notebooks to reproduce all figures and results from Section 3.3. More explanations can be found within the notebooks.
     - `Diagnosis.csv`: contains lung tumour diagnosis
     - `Meta.csv`: contains lung tumour MRI information including whether images contain contrasting material
     - `masks`: contains tumour segmented masks.
-    - `point_couds`: contains point clouds from tumour surface.
+    - `point_couds`: contains point clouds from the tumour surface.
     - `small_point_clouds`: contains subsampled point clouds.
     - `Functions`: contains supplementary scripts to generate point clouds from tumour surface from CT scans sourced from [(https://github.com/robinvndaele/TDA_LungLesion](https://github.com/robinvndaele/TDA_LungLesion/blob/master/Scripts/TDAtumor.ipynb).
-
-
 
 <!-- Package installation -->
 ## Package installation
@@ -37,7 +35,7 @@ Single parameter persistent homology rank functions can be computed both in [Jul
 
 ### Julia libraries 
 Julia is a high-level, general-purpose dynamic programming language.
-We compute single-parameter persistent homology using the [Ripserer](https://mtsch.github.io/Ripserer.jl/dev/) package and to reproduce the outputs in the [] notebook we also require the following packages:
+We compute single-parameter persistent homology using the [Ripserer](https://mtsch.github.io/Ripserer.jl/dev/) package and we also require the following packages:
 - [CSV](https://csv.juliadata.org/stable/)
 - [DataFrames](https://dataframes.juliadata.org/stable/)
 - [Plots](https://docs.juliaplots.org/latest/tutorial/)
@@ -65,18 +63,7 @@ We require from python the following packages:
 - [persim](https://persim.scikit-tda.org/en/latest/)
 
 ### RIVET 
-[RIVET](https://rivet.readthedocs.io/en/latest/) is a tool for computing two-parameter persistent homology and we provide code to compute the rank invariants from the RIVET outputs in the folder Compute_Biparameter_Rank_Invariant (these codes are built upon the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
-
-
-
-
-
-
-
-<!-- References -->
-## References
-- [1]
-- [2]
+[RIVET](https://rivet.readthedocs.io/en/latest/) is a tool for computing two-parameter persistent homology and we provide code to compute the rank invariants from the RIVET outputs in the folder Compute_Biparameter_Rank_Invariant.
 
 
 
