@@ -3,7 +3,7 @@
 <!-- Outline -->
 ## Outline
 
-This repository contains data and code for computing single-parameter persistent homology rank functions and bi-parameter persistent homology rank invariants, also reproducing the figures and application results in the paper [``Computational Stability for Persistence
+This repository contains data and code for computing single-parameter persistent homology rank functions and bi-parameter persistent homology rank invariants, also reproducing the figures and results in the paper [``Computational Stability for Persistence
 Rank Function Machine Learning"](cite).
 
 Persistent homology is one of the most important tools in topological data analysis, studying how homological features of data persist over scale. Commonly, persistent homology is represented using the persistence diagram or the persistence barcode. However, these representations do not lend themselves naturally to statistical and machine learning algorithms. 
