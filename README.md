@@ -15,6 +15,7 @@ We explore the persistent homology rank functions as equivalent functional repre
 This repository is split into the following:
 - `HRV_Application`: contains code and data related to the application of classifying HRV between healthy individuals and post-stroke patients in Section 3.1 of the paper.
     -  `Classification on HRV data.ipynb`: notebook to reproduce all figures and results from Section 3.1.
+    -  `Classification of HRV data with persistence images.ipynb`: notebook to reproduce results for classification using persistence images
     -  `interpolatedRR_CON.csv` and `normalRRs_CON.csv` are the data required.
 - `Compute_Biparameter_Rank_Invariant`: contains Python scripts for computing biparameter rank invariants (which are adapted from the original code for computing multiparameter persistence landscapes found [here](https://github.com/OliverVipond/Multiparameter_Persistence_Landscapes/tree/master))
 - `Simulation_Study`: contains code for simulation study found in Section 3.2
